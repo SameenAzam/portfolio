@@ -1,9 +1,9 @@
 <?php
 // Database Configuration
-$servername = "localhost"; // Ya aapka host IP (e.g., 127.0.0.1)
-$username   = "root";      // Aapka MySQL Username (XAMPP/WAMP me default 'root' hota hai)
-$password   = "";          // Aapka MySQL Password (XAMPP me default empty/blank hota hai)
-$dbname     = "portfolio"; // Apne Database ka naam yahan likhein
+$servername = "localhost"; // Your host IP (e.g., 127.0.0.1)
+$username   = "root";      // Your MySQL Username (default 'root')
+$password   = "";          // Your MySQL Password (default empty/blank)
+$dbname     = "portfolio"; // Your Database name
 
 // Create Connection using MySQLi
 $conn = new mysqli($servername, $username, $password, $dbname);
